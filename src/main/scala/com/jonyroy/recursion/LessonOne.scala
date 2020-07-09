@@ -75,4 +75,22 @@ object LessonOne {
     _loop(nthFibNum)
   }
 
+  /**
+   * Write a program to count the digits of a given number
+   *
+   * @param num
+   * @return Number of digits of a given number
+   */
+  def countDigits(num: Long): Long = {
+    @scala.annotation.tailrec
+    def _loop(num: Long, acc: Int): Int = {
+      num match {
+        case 0 => acc
+        case n: Long => _loop(n / 10, acc + 1)
+      }
+    }
+
+    _loop(num, 0)
+  }
+
 }

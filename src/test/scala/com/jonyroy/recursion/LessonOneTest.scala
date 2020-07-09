@@ -22,4 +22,8 @@ class LessonOneTest extends AnyFunSuite with Matchers {
     findNthFibonacciNumber(6) shouldBe (8)
     the[IllegalArgumentException] thrownBy findNthFibonacciNumber(21) should have message "requirement failed: Invalid Input"
   }
+
+  test("UnitTest for countDigits") {
+    countDigits(123456789) shouldBe(9)
+  }
 }

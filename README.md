@@ -4,3 +4,4 @@
 #### 2. Write a program to generate Nth Natural Numbers by Descending Order.
 #### 3. Write a program to calculate the sum of numbers from 1 to n.
 #### 4. Write a program to find Nth Fibonacci Number.
+#### 5. Write a program to count the digits of a given number.
