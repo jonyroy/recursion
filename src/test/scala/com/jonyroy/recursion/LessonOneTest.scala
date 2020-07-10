@@ -24,6 +24,25 @@ class LessonOneTest extends AnyFunSuite with Matchers {
   }
 
   test("UnitTest for countDigits") {
-    countDigits(123456789) shouldBe(9)
+    countDigits(123456789) shouldBe 9
   }
+
+  test("UnitTest for findSumOfDigits") {
+    findSumOfDigits(123456789) shouldBe 45
+  }
+
+  test("UnitTest for findGCD") {
+    findGCD(15, 20) shouldBe 5
+    findGCD(112, 100) shouldBe 4
+    findGCD(37, 101) shouldBe 1
+  }
+
+  test("UnitTest for findLargestElem") {
+    findLargestElem(List[Long](1, 2, 4, 6, -89, 238475, -83736)) shouldBe 238475
+  }
+
+  test("UnitTest for findSmallestElem") {
+    findSmallestElem(List[Long](1, 2, 4, 6, -89, 238475, -83736)) shouldBe -83736
+  }
+
 }
