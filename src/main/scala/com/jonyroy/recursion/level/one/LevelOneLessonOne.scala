@@ -1,6 +1,6 @@
-package com.jonyroy.recursion
+package com.jonyroy.recursion.level.one
 
-object LessonOne {
+object LevelOneLessonOne {
 
   /**
     * Write a program to generate Nth Natural Numbers by Ascending Order

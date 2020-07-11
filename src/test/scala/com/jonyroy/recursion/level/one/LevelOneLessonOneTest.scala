@@ -1,10 +1,10 @@
-package com.jonyroy.recursion
+package com.jonyroy.recursion.level.one
 
+import com.jonyroy.recursion.level.one.LevelOneLessonOne._
 import org.scalatest.funsuite.AnyFunSuite
 import org.scalatest.matchers.should.Matchers
-import LessonOne._
 
-class LessonOneTest extends AnyFunSuite with Matchers {
+class LevelOneLessonOneTest extends AnyFunSuite with Matchers {
 
   test("UnitTest for generateNthNaturalNumbersAsc") {
     generateNthNaturalNumbersAsc(10) shouldBe List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
