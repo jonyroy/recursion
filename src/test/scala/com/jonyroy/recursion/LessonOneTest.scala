@@ -45,4 +45,8 @@ class LessonOneTest extends AnyFunSuite with Matchers {
     findSmallestElem(List[Long](1, 2, 4, 6, -89, 238475, -83736)) shouldBe -83736
   }
 
+  test("UnitTest for reverseString") {
+    reverseString("reverseString") shouldBe "gnirtSesrever"
+  }
+
 }

@@ -9,3 +9,4 @@
 #### 7. Write a program to find GCD of two numbers.
 #### 8. Write a program to get the largest element of an List.
 #### 9. Write a program to get the smallest element of an List.
+#### 10. Write a program to reverse a string.

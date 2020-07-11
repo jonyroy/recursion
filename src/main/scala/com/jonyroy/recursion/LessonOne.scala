@@ -161,4 +161,22 @@ object LessonOne {
     _loop(listOfNum, Long.MaxValue)
   }
 
+  /**
+    * Write a program to reverse a string
+    *
+    * @param str
+    * @return reverse string
+    */
+  def reverseString(str: String): String = {
+    //val strLen = str.length
+    @scala.annotation.tailrec
+    def _loop(str: String, acc: String, strLen: Int): String = {
+      strLen match {
+        case 0 => acc + str(strLen)
+        case _ => _loop(str, acc + str(strLen), strLen - 1)
+      }
+    }
+
+    _loop(str, "", str.length - 1)
+  }
 }
